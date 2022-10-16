@@ -1,4 +1,4 @@
-import request = require("request");
+const request = require("request");
 var TOKEN: string = process.env.LINE_ACCESS_TOKEN;
 var sendurl: string;
 

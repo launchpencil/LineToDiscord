@@ -3,5 +3,5 @@
       "outDir": "./built",
       "allowJs": true,
     },
-    "include": ["./src/**/*"]
+    "include": ["./*"]
   }
