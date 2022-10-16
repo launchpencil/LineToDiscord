@@ -1,4 +1,4 @@
-index.ts
+*.ts
 node_modules
 package-lock.json
 .github/
