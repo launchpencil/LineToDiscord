@@ -1,0 +1,21 @@
+{
+  "name": "linetodiscord",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/launchpencil/LineToDiscord.git"
+  },
+  "author": "launchpencil",
+  "bugs": {
+    "url": "https://github.com/launchpencil/LineToDiscord/issues"
+  },
+  "homepage": "https://github.com/launchpencil/LineToDiscord#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
