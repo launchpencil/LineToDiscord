@@ -13,6 +13,8 @@ jobs:
           path: src/
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+      - run: npm i
+      - run: npx tsx index.ts
       - run: npm ci
       - run: npm publish
         env:
