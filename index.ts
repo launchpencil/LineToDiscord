@@ -72,10 +72,10 @@ export function senddiscord(content: events) {
           "content": content.message.text
         }
       }
-      if (body.message.type != 'text') {
+      if (content.message.type != 'text') {
         sendmsg.json.content = 'ファイルが送信されました。';
       }
-      
+
       request.post(sendmsg);
     });
   }
