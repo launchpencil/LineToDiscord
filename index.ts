@@ -67,8 +67,8 @@ export function senddiscord(content: events) {
           "Content-type": "application/json"
         },
         json: {
-          "username": body.displayName,
-          "avatar_url": body.pictureUrl,
+          "displayName": body.displayName,
+          "pictureUrl": body.pictureUrl,
           "content": content.message.text
         }
       }
