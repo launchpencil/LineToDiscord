@@ -60,15 +60,15 @@ export function senddiscord(content: events) {
       json: true
     };
     request(options, function (error, response, body) {
-      console.log(body);
+      console.log('[LineToDiscord]' + body);
       var sendmsg: postObj = {
         uri: sendurl,
         headers: {
           "Content-type": "application/json"
         },
         json: {
-          "displayName": body.displayName,
-          "pictureUrl": body.pictureUrl,
+          "username": body.displayName,
+          "avatar_url": body.pictureUrl,
           "content": content.message.text
         }
       }
